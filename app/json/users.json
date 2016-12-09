@@ -1,0 +1,109 @@
+[
+
+	    {  
+	       "UserID": "1",
+	       "userName": "LizzieUrrutia",
+	       "email": "lizzie.urrutia@protonmail.ch",
+	       "address": "123 Street",
+	       "province": "Oakville",
+	       "phoneNumber": "(905)905-9005",
+	       "rating": "5" 
+	   	},
+
+	    {
+	       "UserID": "2",
+	       "userName": "Simran Mahajan",
+	       "email": "simran@gmail.com",
+	       "address": "123 Street",
+	       "province": "York",
+	       "phoneNumber": "(647)471-0911",
+	       "rating": "5"    
+	   	},
+
+	    {
+	      "UserID": "3",	
+	      "userName": "Sixin Zhang", 
+	      "email": "wondergirl@hotmail.com",
+	      "address": "123 Street",
+	      "province": "Brampton",
+	      "phoneNumber": "(647)328-1122",
+	      "rating": "5"  
+	  	},
+
+	    {
+	      "UserID": "4",	
+	      "userName": "Alex Park", 
+	      "email": "tech_gods@outlook.com",
+	      "address": "123 Street",
+	      "province": "Mississauga",
+	      "phoneNumber": "(647)204-1778",
+	      "rating": "5" 
+	  	},
+
+	    {
+
+	      "UserID": "5",	
+	      "userName": "Laura Martinez", 
+	      "email": "laura1999@sheridancollege.ca",
+	      "address": "123 Street",
+	      "province": "Oshawa",
+	      "phoneNumber": "(647)469-6364",
+	      "rating": "5" 
+	  	},
+
+	    {
+
+	      "UserID": "6",	
+	      "userName": "Michael Reitner", 
+	      "email": "bigmike@uft.ca",
+	      "address": "123 Street",
+	      "province": "Markham",
+	      "phoneNumber": "(647)443-6674",
+	      "rating": "3" 
+	  	},
+
+	    {
+
+	      "UserID": "7",	
+	      "userName": "Jerome Bilage", 
+	      "email": "cottage.lover@gmail.com",
+	      "address": "123 Street",
+	      "province": "Toronto",
+	      "phoneNumber": "(416)534-1098",
+	      "rating": "2" 
+	  	},
+
+	    {
+
+	      "UserID": "8",	
+	      "userName": "Steven Michaels", 
+	      "email": "steven_Michaels@icloud.com",
+	      "address": "123 Street",
+	      "province": "London",
+	      "phoneNumber": "(519)564-4441",
+	      "rating": "4" 
+	  	},                              
+
+		{
+
+	      "UserID": "9",	
+	      "userName": "Richard Ban", 
+	      "email": "rick435544@gmx.com",
+	      "address": "123 Street",
+	      "province": "Guelph",
+	      "phoneNumber": "(905)112-3232",
+	      "rating": "1" 
+	  	},
+
+		{
+
+	      "UserID": "10",	
+	      "userName": "David Ferguson", 
+	      "email": "fergusonfamily21@yahoo.ca",
+	      "address": "123 Street",
+	      "province": "Barrie",
+	      "phoneNumber": "(416)260-2840",
+	      "rating": "4" 
+	  	}
+
+]

@@ -1,0 +1,76 @@
+
+<md-dialog aria-label="Create a Service">
+  <div>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h3>New Service</h3>
+        <span flex></span>
+        <md-button type="button" class="md-icon-button" ng-click="cancel()">
+          <i class="fa fa-times" aria-label="Close dialog"></i>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <form name="service">
+      <div layout-gt-sm="row">
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Detail of Service</label>
+          <input ng-model="service.DETAILS">
+        </md-input-container>
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Service Duration</label>
+          <input ng-model="service.DURATION" placeholder="(ex. 2 hours)">
+        </md-input-container>
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Category</label>
+          <md-select ng-model="service.DEPARTMENT">
+            <md-option ng-repeat="d in departments" value="{{d.value}}">
+              {{d.value}}
+            </md-option>
+          </md-select>
+        </md-input-container>
+    <md-input-container class="md-block" flex-gt-sm>
+          <label>Task</label>
+          <md-select ng-model="service.TASK">
+            <md-option ng-repeat="d in tasks" value="{{d.value}}">
+              {{d.value}}
+            </md-option>
+          </md-select>
+        </md-input-container>        
+      <md-radio-group ng-model="type" layout="row" class="md-padding" >
+            <md-radio-button value="seeking" class="md-primary" ><span class="md-caption">Seeking</span></md-radio-button>
+            <md-radio-button value="providing"><span class="md-caption">Providing</span></md-radio-button>
+        </md-radio-group>
+      </div>
+      <md-input-container class="md-block">
+        <label>Address</label>
+        <input ng-model="address"></md-input-container>
+      <div layout-gt-sm="row">
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>City</label>
+          <input ng-model="city"></md-input-container>
+        <md-input-container class="md-block" flex-gt-sm>
+          <label>Postal Code</label>
+          <input name="postalCode" ng-model="service.POSTALCODE" placeholder="(ex. L6H2A8)"
+                 required md-maxlength="6">
+          <div ng-messages="service.postalCode.$error" role="alert" multiple>
+            <div ng-message="required" class="my-message">You must supply a postal code.</div>
+            <div ng-message="pattern" class="my-message">Invalid Postal Code!!</div>
+            <div ng-message="md-maxlength" class="my-message">Invalid Postal Code!!</div>
+          </div>
+        </md-input-container>     
+        
+        <div layout="row" layout-align="center center" class="md-margin">
+          <md-button type="submit" ng-disabled="service.$invalid" class="md-raised md-primary" 
+                aria-label="submit">
+            Submit
+          </md-button>
+          <md-button type="button" class="md-raised md-warn" aria-label="cancel" ng-click="cancel()">
+            Cancel
+          </md-button>
+        </div>
+        
+    
+    
+    </form> 
+  </div>
+</md-dialog>

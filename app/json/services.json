@@ -1,0 +1,254 @@
+[
+
+    {  
+        "ID": "1",
+        "UserID": "1",
+        "Category": "Transportation", 
+        "Location": "Oakville", 
+        "Task": "Ride", 
+        "ServiceDuration": "0.25",
+        "Date": "2016-11-26",
+        "Time": "2pm", 
+        "Details": "I need a ride back from the grocery store, it is a 15 minutes drive home from the closest Metro",
+        "Type": "Seeking"
+      },
+
+    {  
+        "ID": "2",
+        "UserID": "2",
+        "Category": "Tutoring", 
+        "Location": "York", 
+        "Task": "Java", 
+        "Date": "2016-11-27",
+        "Time": "2pm", 
+        "Details": "I am a 4th year Computer Engineering student at Ryerson University with a 3.8 GPA, most proficient language is Java",
+        "Type": "Providing" 
+      },
+
+    { 
+       "ID": "3",
+       "UserID": "3",
+       "Category": "Media Services",
+       "Location": "Brampton", 
+       "Task": "Photography", 
+       "Date": "2016-11-30",
+       "Time": "10am", 
+       "Details": "Hello there! I am a photographer with 6 years experience as an independent photographer. You can view my portafolio at www.bestphotographerever.ca",
+       "Type": "Providing"
+      },
+
+    { 
+       "ID": "4",
+       "UserID": "4",
+       "Category": "Household tasks",
+       "Location": "Mississauga", 
+       "Task": "Cleaning", 
+       "ServiceDuration": "2",
+       "Date": "2016-11-26",
+       "Time": "11am", 
+       "Details": "Hey guys. I would like someone to help me clean my mother's apartment since she recently had surgery. She lives in a one bedroom apartment by Square One",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "5",
+       "UserID": "5",
+       "Category": "Children Services",
+       "Location": "Oshawa", 
+       "Task": "Babysitting", 
+       "Date": "2016-12-2",
+       "Time": "4pm", 
+       "Details": "I am a licenced home daycare provider and have availability to babysit at my home after 4 pm for a school age child. I have 2 grown children and have been running my business for 27 years",
+       "Type": "Providing"
+      },
+
+    { 
+       "ID": "6",
+       "UserID": "5",
+       "Category": "Transportation",
+       "Location": "Oshawa", 
+       "Task": "Groceries", 
+       "ServiceDuration": "1",
+       "Date": "2016-12-5",
+       "Time": "4pm", 
+       "Details": "Hi guys, I am looking for a ride to the Longos grocery store for about an hour, I need a ride there and back. I am looking for someone with a full G licence.",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "7",
+       "UserID": "4",
+       "Category": "Household tasks",
+       "Location": "Mississauga", 
+       "Task": "Repair", 
+       "Date": "2016-12-2",
+       "Time": "4pm", 
+       "Details": "I am good with the tools and can do most basic home repairs, if you need something fix just ask!",
+       "Type": "Providing"
+      },
+
+    { 
+       "ID": "8",
+       "UserID": "3",
+       "Category": "Senior Services",
+       "Location": "Brampton", 
+       "Task": "Personal Care",
+       "ServiceDuration": "1.5", 
+       "Date": "2016-12-2",
+       "Time": "4pm", 
+       "Details": "Hello, I am looking for someone with experience caring for seniors in the Brampton area. My mother suffers of Alzheimer’s disease and I take care of her full time but I need to go my child's school for parent teacher interviews and need someone in the Brampton area that could come for about an hour and help her eat and take her proper medication. Thanks!",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "9",
+       "UserID": "2",
+       "Category": "Children Services",
+       "Location": "York", 
+       "Task": "Babysitting", 
+       "Date": "2016-12-2",
+       "Time": "4pm", 
+       "Details": "I am a stay at home mom of 2 beautiful children and can help you with emergency Babysitting at my home if you find yourself in a pickle. ",
+       "Type": "Providing"
+      }, 
+
+    { 
+       "ID": "10",
+       "UserID": "1",
+       "Category": "Tutoring",
+       "Location": "Oakville", 
+       "Task": "Chemistry", 
+       "ServiceDuration": "5",
+       "Date": "2016-12-15",
+       "Time": "4pm", 
+       "Details": "I need help for my daughter with grade 11 chemistry University credit",
+       "Type": "Seeking"
+      },
+
+    {  
+        "ID": "11",
+        "UserID": "6",
+        "Category": "Transportation", 
+        "Location": "Markham", 
+        "Task": "Ride", 
+        "ServiceDuration": "0.5",
+        "Date": "2016-11-21",
+        "Time": "2pm", 
+        "Details": "Hello. I have a same day surgery this week and need a ride back home from the hospital as the doctors say I cannot drive myself due to the anesthesia. I can take the bus there but need someone to help me get home after. I live 20 minutes from the hospital.",
+        "Type": "Seeking"
+      },
+
+    {  
+        "ID": "12",
+        "UserID": "7",
+        "Category": "Tutoring", 
+        "Location": "Toronto", 
+        "Task": "Math", 
+        "ServiceDuration": "1",
+        "Date": "2016-11-26",
+        "Time": "2pm", 
+        "Details": "I am a 1st year College student struggleling with math, can someone help me?",
+        "Type": "Seeking" 
+      },
+
+    { 
+       "ID": "13",
+       "UserID": "8",
+       "Category": "Media Services",
+       "Location": "London", 
+       "Task": "Photography", 
+       "ServiceDuration": "2",
+       "Date": "2016-11-29",
+       "Time": "10am", 
+       "Details": "I would like someone to take some family pictures for our Christmas cards.",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "14",
+       "UserID": "9",
+       "Category": "Household tasks",
+       "Location": "Guelph", 
+       "Task": "Repair", 
+       "ServiceDuration": "3",
+       "Date": "2016-11-26",
+       "Time": "11am", 
+       "Details": "Hello Win-Winners! I got a virus in my computer. Can anyone help me remove it please? I have Windows 7",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "15",
+       "UserID": "10",
+       "Category": "Children Services",
+       "Location": "Barrie", 
+       "Task": "Babysitting", 
+       "Date": "2016-12-2",
+       "Time": "4pm", 
+       "Details": "Hi everyone. I am a University student that has been babysitting since I was 14. I have references and CPR certificate.",
+       "Type": "Providing"
+      },
+
+    { 
+       "ID": "16",
+       "UserID": "10",
+       "Category": "Transportation",
+       "Location": "Barrie", 
+       "Task": "Groceries", 
+       "ServiceDuration": "1",
+       "Date": "2016-12-5",
+       "Time": "7pm", 
+       "Details": "Can someone take me to the Fortino's for a grocery run?. I would need an hour of your time.",
+       "Type": "Seeking"
+      },
+
+    { 
+       "ID": "17",
+       "UserID": "8",
+       "Category": "Household tasks",
+       "Location": "London", 
+       "Task": "Repair", 
+       "Date": "2016-12-30",
+       "Time": "5pm", 
+       "Details": "I am a registered, licenced and insured electritian.",
+       "Type": "Providing"
+      },
+
+    { 
+       "ID": "18",
+       "UserID": "7",
+       "Category": "Senior Services",
+       "Location": "Toronto", 
+       "Task": "Grocery delivery", 
+       "ServiceDuration": "1.5",
+       "Date": "2016-12-3",
+       "Time": "4pm", 
+       "Details": "I would like to find someone who can help me pick up some groceries with me. The grocery store in 5 minutes away but it is very diffucult for me to carry them home. Thank you.",
+       "Type": "Seeking"},
+
+  { 
+       "ID" : "19",
+       "UserID": "6",
+       "Category" : "Children Services",
+       "Location" : "Markham", 
+       "Task" : "Babysitting", 
+       "ServiceDuration": "2",
+       "Date" : "2016-12-5",
+       "Time" : "4pm", 
+       "Details" : "I am looking for a sitter for my 2 kids ages 9 and 6. I am a single mother and have an MRI appointment at the hospital. I will need about 2 hours of your time. ",
+       "Type" : "Seeking"
+      }, 
+
+    { 
+       "ID": "20",
+       "UserID": "9",
+       "Category": "Tutoring",
+       "Location": "Guelph", 
+       "Task": "Programming", 
+       "Date": "2016-12-20",
+       "Time": "4pm", 
+       "Details": "I am a Google Engineer with a Masters in AI",
+       "Type": "Providing"
+     }
+
+]
